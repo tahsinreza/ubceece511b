@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WassonrezaProject
+Bundle-SymbolicName: ca.ubc.ece.eece511b.project;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: ca.ubc.ece.eec511b.project.activator.Activator
+Bundle-Vendor: WassonReza
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/jdom.jar,
+ lib/org-netbeans-modules-classfile.jar,
+ .
